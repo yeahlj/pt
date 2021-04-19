@@ -274,5 +274,5 @@ void MainWindow::sumPoint()
     sprintf(buf,"Successful!Your score is:%d",score);
     ui->score_label->setText((QString::number(score)));
     pLbImage[a*a-1]->setPixmap(QPixmap::fromImage(pImage[a-1][a-1]));
-    QMessageBox::about(this,"jiasaw",buf);
+    QMessageBox::about(this,"The Puzzle",buf);
 }
